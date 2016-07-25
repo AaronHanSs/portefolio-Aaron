@@ -24,10 +24,15 @@
         <!-- header -->
         <header>
 
-          <nav>
-            <input type="button" name="Présentation" value="Présentaion">
-            <input type="button" name="Projet" value="Pojet">
-            <input type="button" name="Me contacter" value="Me contacter">
+          <nav class="barre">
+
+            <a href="#presentaion" class="l1"> Présentation   </a>
+            <a href="#projet" class="l2"> Projet </a>
+            <a href="#sites" class="l4"> Sites </a>
+            <a href="#contact" class="l3"> Me contacter </a>
+            <!-- <input type="button" name="Présentation" value="Présentaion" class="boutton">
+            <input type="button" name="Projet" value="Projet" class="boutton1">
+            <input type="button" name="Me contacter" value="Me contacter" class="boutton2"> -->
           </nav>
 
         </header>
@@ -37,17 +42,27 @@
         <!-- section -->
         <section>
 
-          <h1> Présentation </h1>
+          <!-- div presentation -->
 
-            <!-- div presentation -->
+          <div class="presentation" id="presentaion">
 
-          <div class="Présentaion">
+            <h1 class="t1"> Présentation </h1>
 
-            <img src="img/aaron.jpg" alt="profil" />
+            <img src="img/aaron.jpg" alt="profil" class="profil" />
 
             <p> Je m'appel Aaron Hans et je suis actuellement en formation professionel informatique <br>
              a simplon dans le but d'en apprendre plus dans le domaine informatique et pourquoi <br>
              pas crée ma startup ou intégrer une entreprise  </p>
+
+             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. <br>
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<br> </p>
+
+              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore <br>
+                et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip <br>
+                ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.<br>
+                 Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </div>
 
           <!-- end div présentation -->
@@ -55,7 +70,7 @@
 
           <!-- div Projet -->
 
-          <div class="Projet">
+          <div class="Projet" id="projet">
 
             <h1> Projet </h1>
 
@@ -65,7 +80,7 @@
 
               <h3>projet personnel</h3>
 
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br>
+              <p class="p1"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br>
                ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>
                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse <br>
               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui <br>
@@ -87,8 +102,8 @@
 
               <h3>projet professionnel</h3>
 
-              <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br>
-               ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>
+              <p class="p2"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt <br>
+               ut  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris <br>
                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse <br>
               cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui <br>
               officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed <br>
@@ -111,53 +126,35 @@
 
           <!-- div sites -->
 
-          <div class="sites">
+          <div class="sites" id="sites">
 
-            <div class="interface">
+            <h1> Sites </h1>
 
-              <h3> Sites </h3>
+        <h3> Interface </h3>
 
-              <ul>
-                <li> <a href="https://aaronhanss.github.io/airbnb/"> Airbnb </a></li>
-                <li> <a href="https://aaronhanss.github.io/interface-google/"> Google </a></li>
-                <li> <a href="https://aaronhanss.github.io/Interface-leboncoin/"> Leboncoin</a></li>
+              <ul class="interface">
+                <!-- 1200x630 -->
+                <li> <a href="https://aaronhanss.github.io/airbnb/">  <img src="img/airbnb.png" alt="airbnb" />  </a></li>
+                <li> <a href="https://aaronhanss.github.io/interface-google/"> <img src="img/google.png" alt="google" /> </a></li>
+                <li> <a href="https://aaronhanss.github.io/Interface-leboncoin/"> <img src="img/leboncoin.png" alt="leboncoin" width="310" height="163" /></a></li>
               </ul>
 
-            </div>
+          <h3> Cheat Sheet</h3>
 
-            <!-- div cheat-sheet -->
-
-            <div class="Cheat-Sheet">
-
-              <h3> Cheat Sheet</h3>
-
-              <ul>
-                <li> <a href="https://aaronhanss.github.io/Sheet-Cheat-Emmet/"> Emmet </a></li>
-                <li> <a href="https://aaronhanss.github.io/css-cheat-sheet/"> Css </a></li>
-                <li> <a href="https://aaronhanss.github.io/cheat-sheet-GIT/"> Git </a></li>
-                <li> <a href="https://aaronhanss.github.io/sheet-cheat-commande-terminal/"> Terminal </a></li>
-                <li> <a href="https://aaronhanss.github.io/cheat-sheet-VIM-A.H/"> Vim </a></li>
-                <li> <a href="https://aaronhanss.github.io/cheat-sheet-Clavier-Ubuntu-/"> Ubuntu </a></li>
+              <ul class="cheat">
+                <li> <a href="https://aaronhanss.github.io/Sheet-Cheat-Emmet/"> <img src="img/emmet.png" alt="Emmet"  width="310" height="163" /> </a></li>
+                <li> <a href="https://aaronhanss.github.io/css-cheat-sheet/"> <img src="img/css.png" alt="Css"  width="310" height="163" /> </a></li>
+                <li> <a href="https://aaronhanss.github.io/cheat-sheet-GIT/"> <img src="img/git.png" alt="Git"  width="310" height="163" /> </a></li>
+                <li> <a href="https://aaronhanss.github.io/sheet-cheat-commande-terminal/"> <img src="img/terminal.png" alt="Terminal"  width="310" height="163" /> </a></li>
+                <li> <a href="https://aaronhanss.github.io/cheat-sheet-VIM-A.H/"> <img src="img/vim.png" alt="Vim"  width="310" height="163" /> </a></li>
+                <li> <a href="https://aaronhanss.github.io/cheat-sheet-Clavier-Ubuntu-/"> <img src="img/ubuntu.png" alt="unbuntu"  width="310" height="163" /> </a></li>
               </ul>
 
-            </div>
-
-            <!-- end div cheat-sheet -->
-
-
-            <!-- div portfolio -->
-
-            <div class="Portfolio">
-
-              <h3> Portfolio </h3>
+          <h3> Portfolio </h3>
 
               <ul>
-                <li> <a href=" https://simplon-roubaix.github.io/AaKa/ "> portfolio duo</a></li>
+                <li> <a href=" https://simplon-roubaix.github.io/AaKa/ "> <img src="img/portfolio.png" alt="portfolio" /></a></li>
               </ul>
-
-            </div>
-
-            <!-- end div portfolio -->
 
           </div>
 
@@ -166,13 +163,18 @@
 
           <!-- div contact -->
 
-          <div class="contact">
+          <div class="contact" id="contact">
+
+            <h3>Me contacter</h3>
 
             <input type="text" name="message" placeholder="Nom" class="Nom">
-            <input type="text" name="message" placeholder="Prénom" class="Prénom">
-            <input type="text" name="message" placeholder="@mail" class="@mail">
+            <input type="text" name="message" placeholder="Prénom" class="Prenom">
+            <input type="text" name="message" placeholder="@mail" class="mail">
             <input type="text" name="message" placeholder="Message" class="Message">
-            <input type="button" name="Envoyer" value="Envoyer">
+
+            <nav>
+              <input type="button" name="Envoyer" value="Envoyer" class="envoyer">
+            </nav>
 
           </div>
 
@@ -207,5 +209,7 @@
             r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
             ga('create','UA-XXXXX-X','auto');ga('send','pageview');
         </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
     </body>
 </html>
